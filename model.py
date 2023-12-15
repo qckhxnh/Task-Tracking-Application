@@ -1,6 +1,5 @@
 import datetime
 
-
 class Todo:
     def __init__(self, task, category, 
                  date_added=None, date_completed=None,
