@@ -11,10 +11,6 @@ def connect():
             user="postgres",
             password="Quockhanh2004@"
         )
-        if conn:
-            print("Connected to the database")
-        else:
-            print("Failed to connect to the database")
         return conn
     conn = create_connection()
     cur = conn.cursor()
@@ -87,6 +83,3 @@ def complete_todo(position: int):
     with conn:
         cur.execute('UPDATE todos SET status = 2, date_completed = %s WHERE position = %s',
                   (datetime.datetime.now(), position))
-
-# Don't forget to close the cursor and connection when you're done
-conn.close()
