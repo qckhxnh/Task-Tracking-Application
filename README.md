@@ -1,6 +1,3 @@
-Certainly! Here's the compiled version of the README file in Markdown format:
-
-```markdown
 # Personal Task Tracker
 
 ![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue)
