@@ -19,7 +19,6 @@ A command-line interface (CLI) Python application for managing personal tasks wi
 
 - Python 3.7 or higher
 - PostgreSQL installed and configured
-- Dependencies: See `requirements.txt`
 
 ## Installation
 
